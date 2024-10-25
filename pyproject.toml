@@ -10,5 +10,5 @@ include = ["splatfactow*", "splatfactow_light*"]
 
 # register the entry point of your new method here:
 [project.entry-points.'nerfstudio.method_configs']
-splatfactow = 'splatfactow.splatfactow_config:splatfactow_config'
+# splatfactow = 'splatfactow.splatfactow_config:splatfactow_config'
 splatfactow_light = 'splatfactow.splatfactow_config:splatfactow_light_config'
